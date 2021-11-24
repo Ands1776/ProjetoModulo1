@@ -1,0 +1,507 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+.fundo{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 100%), url(./imagens/imagem-fundo.jpg) ;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.inf-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+
+.titulo{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25%;
+    font-family: 'Cinzel', serif;
+}
+
+.titulo h1{
+    background: -webkit-linear-gradient(#cdbb7b, #67471f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titulo p{
+    color: rgb(158, 157, 157);
+}
+
+.personagens{
+    margin: 4em 2em;
+    min-width: 40%;
+    padding: 4em;
+    border: solid 1px #cdbb7b;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+.personagens p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 2em;
+}
+
+.personagens ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.personagens li{
+    text-align: center;
+    color: rgb(158, 157, 157);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.personagens a:hover{
+    font-size: 23px;
+    color: white;
+    transition: 0.5s;
+}
+
+.personagens img{
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(158, 157, 157);
+}
+
+/* Introdução dos personagens */
+
+.titulo-introducao{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15%;
+}
+
+.titulo-introducao h1{
+    background: -webkit-linear-gradient(#cdbb7b, #67471f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 40px;
+}
+
+/* Para a parte de escolhas e introdução também */
+
+.info-campeao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    width: 50.10%;
+    margin-bottom: 15px;
+}
+
+.titulo-escolhas{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 14%;
+}
+
+.titulo-escolhas h1{
+    background: -webkit-linear-gradient(#cdbb7b, #67471f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 40px;
+}
+
+.descricao-campeao{
+    font-size: 22px;
+    color: rgb(236, 232, 232);
+    border: solid 1px #dac67e;
+    border-radius: 5px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+.botao{
+    font-size: 30px;
+    margin-top: 35px;
+    padding: 4px 50px 4px 50px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    background: #b4a366;
+    border: none;
+}
+
+.botao:hover{
+    background: #97754d;
+    transition: 0.3s;
+}
+
+/* Parte da Miss*/
+
+.fundo-miss-introducao{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 100%), url(.//imagens/Miss_Fortune_fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Primeira fase Miss */
+
+.fundo-miss1{
+    background: linear-gradient(120deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 100%), url(./imagens/fundo_miss2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Game over (primeira fase)*/
+
+.fundo-miss-go{
+    background: linear-gradient(120deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 100%), url(./imagens/fundo-GO-miss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Segunda fase Miss */
+
+.fundo-miss3{
+    background: linear-gradient(120deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 100%), url(./imagens/fundo-miss3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Game Over (segunda fase)*/
+
+
+.fundo-miss-go2{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 100%), url(./imagens/fundo-GO-miss2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Terceira Fase Miss */
+
+.fundo-miss4{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 40%), url(./imagens/fundo-miss4\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Game Over (terceira fase) */
+
+.fundo-miss-go3{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 40%), url(./imagens/fundo-GO-miss3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Conclusão Miss Fortune */
+
+.fundo-miss-final{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 100%), url(./imagens/fundo-miss-final.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Parte do Gangplank */
+
+.fundo-gang-introducao{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 50%), url(./imagens/fundo-Gang.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Primeira fase Gangplank */
+
+.fundo-gang1{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 100%), url(./imagens/fundo-gang1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Game Over (primeira fase) */
+
+.fundo-gang-GO1{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 100%), url(./imagens/fundo-GO-gang.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Segunda fase Gangplank */
+
+.fundo-gang2{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 100%), url(./imagens/fundo-gang2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Utilizei o fundo do primeiro Game Over no segundo */
+
+/* Terceira fase Gangplank */
+
+.fundo-gang3{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 100%), url(./imagens/fundo-gang3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Ultilizei o Primeiro Game Over para o terceiro */
+
+/* Conclusão Gangplank */
+
+.fundo-gang-final{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 60%), url(./imagens/fundo-Gang-final.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Parte da Pyke */
+
+.fundo-pyke-introducao{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 100%), url(./imagens/fundo-pyke.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Primeira Fase Pyke */
+
+.fundo-pyke1{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 100%), url(./imagens/fundo-pyke1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Mesmo Game Over pra todos */
+
+.fundo-pyke-go{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 100%), url(./imagens/fundo-GO-pyke.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Segunda fase Pyke */
+
+.fundo-pyke2{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 100%), url(./imagens/fundo-pyke2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Terceira fase Pyke */
+
+.fundo-pyke3{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 100%), url(./imagens/fundo-pyke3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Pyke Final */
+
+.fundo-pyke-final{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8239670868347339) 0%, rgba(0,212,255,0) 10%), url(./imagens/fundo-pyke-final.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@media (min-width: 320px) and (max-width: 750px){
+    
+    .titulo{
+        font-size: 18px;
+        margin-top: 40%;
+    }
+
+    .titulo p{
+        margin: 30px 0;
+        font-size: 22px;
+    }
+
+    .personagens{
+        margin: 0 auto;
+        padding: 0;
+        min-width: none;
+    }
+
+    .personagens p{
+        
+        margin: 0;
+    }
+
+    .personagens li{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .personagens img{
+        width: 70%;
+        padding-top: 20px;
+    }
+
+    .personagens a:hover{
+        font-size: 15px;
+    }
+
+    .titulo-introducao{
+        font-size: 20px;
+        margin-top: 30%;
+    }
+
+    .titulo-escolhas{
+        font-size: 20px;
+        margin-top: 40%;
+    }
+
+    .info-campeao{
+        width: 80%;
+    }
+
+    .descricao-campeao{
+        font-size: 15px;
+        padding: 15px 15px;
+    }
+    
+    .botao{
+        margin: 20px;
+        font-size: 20px;
+        padding: 7px 10px;
+    }
+}
